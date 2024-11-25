@@ -2,9 +2,36 @@
   "IWANTTOEAT": [
     {
       "id": "idkhowtomakemeaningfulid",
-      "position": [0.0, 0.0],
-      "note": "高田马场门口的横滨炸鸡排",
-      "tags": ["台湾系", "偶尔中文可交流", "可撒梅粉"]
+      "position": [35.42, 139.42],
+      "comment": "高田马场门口的横滨炸鸡排",
+      "tags": [
+        ".genre=台湾系",
+        ".language.zh=偶尔可交流",
+        ".flavor=可撒梅粉",
+        ".brand=横滨炸鸡排"
+      ]
+    },
+    {
+      "id": "idkhowtomakemeaningfulid2",
+      "position": [35.42, 139.42],
+      "comment": "池袋西口",
+      "tags": [
+        ".genre=大陆系",
+        ".language.zh=可",
+        ".flavor=可撒梅粉、孜然",
+        ".brand=叫了个炸鸡"
+      ]
+    }，
+    {
+      "id": "idkhowtomakemeaningfulid2",
+      "position": [35.42, 139.42],
+      "comment": "池袋东口",
+      "tags": [
+        ".genre=大陆系",
+        ".language.zh=可",
+        ".flavor=可撒梅粉、孜然",
+        ".brand=叫了个炸鸡"
+      ]
     }
   ]
 }

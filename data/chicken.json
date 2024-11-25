@@ -2,11 +2,15 @@
   "IWANTTOEAT": [
     {
       "id": "yokohama-takadanobaba",
-      "position": [35.42, 139.42],
+      "position": [35.713096, 139.705058],
       "comment": ["高田马场门口的横滨炸鸡排"],
       "tags": {
         ".genre": "岛系",
         ".brand": "横滨炸鸡排",
+        ".map_feature":{
+          ".osm":"n12374471002",
+          ".google_url":"https://maps.app.goo.gl/Wai2fK6P5wZPreQC9"
+        },
         ".language": {
           "zh": "偶尔可交流",
           "ja": "可"
@@ -16,7 +20,7 @@
     },
     {
       "id": "jiaolegezhaji-ikebukurowest",
-      "position": [35.42, 139.42],
+      "position": [ 35.732718, 139.710646],
       "comment": ["池袋西口"],
       "tags": {
         ".genre": "大陆系",
@@ -29,7 +33,7 @@
     },
     {
       "id": "jiaolegezhaji-ikebukuroeast",
-      "position": [35.42, 139.42],
+      "position": [35.728896, 139.715264],
       "comment": ["池袋东口"],
       "tags": {
         ".genre": "大陆系",

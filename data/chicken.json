@@ -7,9 +7,9 @@
       "tags": {
         ".genre": "岛系",
         ".brand": "横滨炸鸡排",
-        ".map_feature":{
-          ".osm":"n12374471002",
-          ".google_url":"https://maps.app.goo.gl/Wai2fK6P5wZPreQC9"
+        ".map_feature": {
+          ".osm": "n12374471002",
+          ".google_url": "https://maps.app.goo.gl/Wai2fK6P5wZPreQC9"
         },
         ".language": {
           "zh": "偶尔可交流",
@@ -20,11 +20,15 @@
     },
     {
       "id": "jiaolegezhaji-ikebukurowest",
-      "position": [ 35.732718, 139.710646],
+      "position": [35.732718, 139.710646],
       "comment": ["池袋西口"],
       "tags": {
         ".genre": "大陆系",
         ".brand": "叫了个炸鸡",
+        ".map_feature": {
+          ".osm": "n12374425596",
+          ".google_url": "https://maps.app.goo.gl/txPNeib9DNekcU9W7"
+        },
         ".language": {
           "zh": "可"
         },
@@ -38,6 +42,10 @@
       "tags": {
         ".genre": "大陆系",
         ".brand": "叫了个炸鸡",
+        ".map_feature": {
+          ".osm": "n12374425597",
+          ".google_url": "https://maps.app.goo.gl/NBkR4MY2WxG9ERHB9"
+        },
         ".language": {
           "zh": "可",
           "ja": "一般"
@@ -47,11 +55,14 @@
     },
     {
       "id": "zhengxinjipai-takadanobaba",
-      "position": [35.42, 139.42],
+      "position": [35.71236, 139.706579],
       "comment": ["池袋东口1min左右，行知学院下面"],
       "tags": {
         ".genre": "大陆系",
         ".brand": "正新鸡排",
+        ".map_feature": {
+          ".google_url": "https://maps.app.goo.gl/Tqn8gRBA4ZY5hqmZ8"
+        },
         ".language": {
           "zh": "unknown"
         },

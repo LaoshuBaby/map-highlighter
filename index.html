@@ -1,31 +1,26 @@
 <!DOCTYPE html>
 <head>
+  <meta charset="UTF-8" />
   <title>东京炸鸡地图 | 東京炸鷄地圖</title>
   <link
     rel="stylesheet"
     href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   />
+  <link href="css/style.css" rel="stylesheet" />
+
+  <link
+    href="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.css"
+    rel="stylesheet"
+  />
   <!-- Make sure load leaflet.js AFTER CSS -->
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="plugin/Leaflet.Control.Opacity/dist/L.Control.Opacity.js"></script>
   <script>
     var CENTER_LAT = 35.6825;
     var CENTER_LON = 139.7241;
   </script>
 </head>
 <body>
-  <style>
-    html,
-    body {
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      padding: 0;
-    }
-    #map {
-      height: 80%;
-      /* max-height: 80%; */
-    }
-  </style>
   <div>
     <p style="text-align: center; font-size: 2.5em">
       东京炸鸡地图 | 東京炸鷄地圖

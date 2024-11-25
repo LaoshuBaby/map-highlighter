@@ -1,37 +1,52 @@
 {
   "IWANTTOEAT": [
     {
-      "id": "idkhowtomakemeaningfulid",
+      "id": "yokohama-takadanobaba",
       "position": [35.42, 139.42],
       "comment": "高田马场门口的横滨炸鸡排",
-      "tags": [
-        ".genre=台湾系",
-        ".language.zh=偶尔可交流",
-        ".flavor=可撒梅粉",
-        ".brand=横滨炸鸡排"
-      ]
+      "tags": {
+        ".genre": "岛系",
+        ".language.zh": "偶尔可交流",
+        ".flavor": "可撒梅粉",
+        ".brand": "横滨炸鸡排",
+        ".comment": "高田马场门口的横滨炸鸡排"
+      }
     },
     {
-      "id": "idkhowtomakemeaningfulid2",
+      "id": "jiaolegezhaji-ikebukurowest",
       "position": [35.42, 139.42],
       "comment": "池袋西口",
-      "tags": [
-        ".genre=大陆系",
-        ".language.zh=可",
-        ".flavor=可撒梅粉、孜然",
-        ".brand=叫了个炸鸡"
-      ]
-    }，
+      "tags": {
+        ".genre": "大陆系",
+        ".language.zh": "可",
+        ".flavor": "可撒梅粉、孜然",
+        ".brand": "叫了个炸鸡",
+        ".comment": "池袋西口"
+      }
+    },
     {
-      "id": "idkhowtomakemeaningfulid2",
+      "id": "jiaolegezhaji-ikebukuroeast",
       "position": [35.42, 139.42],
       "comment": "池袋东口",
-      "tags": [
-        ".genre=大陆系",
-        ".language.zh=可",
-        ".flavor=可撒梅粉、孜然",
-        ".brand=叫了个炸鸡"
-      ]
+      "tags": {
+        ".genre": "大陆系",
+        ".language.zh": "可",
+        ".flavor": "可撒梅粉、孜然",
+        ".brand": "叫了个炸鸡",
+        ".comment": "池袋东口"
+      }
+    },
+    {
+      "id": "zhengxinjipai-takadanobaba",
+      "position": [35.42, 139.42],
+      "comment": "池袋东口",
+      "tags": {
+        ".genre": "大陆系",
+        ".language.zh": "unknown",
+        ".flavor": "unknown",
+        ".brand": "正新鸡排",
+        ".comment": "池袋东口1min左右，行知学院下面"
+      }
     }
   ]
 }

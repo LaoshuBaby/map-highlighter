@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <head>
-    <title>吃吃吃吃吃吃吃</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  <title>吃吃吃吃吃吃吃</title>
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-    crossorigin=""/>
-     <!-- Make sure you put this AFTER Leaflet's CSS -->
- <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
- integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
- crossorigin=""></script>
+    crossorigin=""
+  />
+  <!-- Make sure you put this AFTER Leaflet's CSS -->
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
 </head>
 <body>
-    <div>
-        这里应该放个leaflet，但我不会前端，所以摆了
-        <div id="map"></div>
-        <style>
-            #map { height: 180px; }
-        </style>
-        <script>
-            var map = L.map('map').setView([51.505, -0.09], 13);
-            L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
+  <style>
+    html, body {
+      height: 100%;
+      width:100%
+      margin: 0;
+      padding: 0;
+    }
+    #map {
+      height: 80%;
+      /* max-height: 80%; */
+    }
+  </style>
+  <div>
+    <p style="text-align: center; font-size: 2.5em;">
+        东京炸鸡地图 | 東京炸鷄地圖
+    </p>
+  </div>
+  <div id="map"></div>
+  <script>
+    var map = L.map("map").setView([35.6825, 139.7241], 13);
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution:
+        '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
 
-var marker = L.marker([51.5, -0.09]).addTo(map);
-var circle = L.circle([51.508, -0.11], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 500
-}).addTo(map);
-        </script>
-    </div>
+    var circle = L.circle([35.42, 139.42], {
+      color: "red",
+      fillColor: "#f03",
+      fillOpacity: 0.5,
+      radius: 500,
+    }).addTo(map);
+  </script>
 </body>
